@@ -1,0 +1,23 @@
+{
+	"name": "tldus-DF-2023-10-07T10-05-36Z",
+	"properties": {
+		"globalConfigurations": {
+			"factoryStagingLSReferenceName": "imatthewtanner",
+			"factoryStagingLSType": "LinkedServiceReference",
+			"factoryStagingFolderPath": "insights-logs-auditlogs",
+			"PolicyValidationEnabled": "true"
+		}
+	},
+	"location": "EastUS",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "71624266-87dc-43ff-9ed1-803e73f92010",
+		"tenantId": "968bcb4d-036c-4460-83aa-31c466eb4f56",
+		"userAssignedIdentities": {
+			"/subscriptions/9fc05203-7761-44a5-9121-7c9aaf94a866/resourcegroups/DefaultResourceGroup/providers/Microsoft.ManagedIdentity/userAssignedIdentities/imatthewtanner": {
+				"clientId": "66b5d9a8-e79f-48ca-a11f-1933e891f819",
+				"principalId": "c9765db7-0011-4ab2-8990-e9ae6e9be184"
+			}
+		}
+	}
+}

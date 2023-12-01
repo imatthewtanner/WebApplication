@@ -1,0 +1,44 @@
+{
+	"name": "Pipeline_SSMS_5X88RT3_2023-11-20T07_41_18Z",
+	"properties": {
+		"description": "Created via SSMS scheduling feature.",
+		"activities": [
+			{
+				"name": "Activity_SSMS_5X88RT3_2023-11-20T07_41_18Z",
+				"description": "Created via SSMS scheduling feature.",
+				"type": "ExecuteSSISPackage",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"packageLocation": {
+						"packagePath": "C:\\DeploymentShare\\Packages\\FeaturePack",
+						"type": "File",
+						"typeProperties": {
+							"accessCredential": {
+								"domain": "eng.Corp.tldus.com",
+								"userName": "MatthewTanner",
+								"password": {
+									"type": "SecureString",
+									"value": "**********"
+								}
+							}
+						}
+					},
+					"runtime": "x64",
+					"connectVia": {
+						"referenceName": "tldus-IR-2023-10-07T10-05-36Z",
+						"type": "IntegrationRuntimeReference"
+					}
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2023-11-20T07:50:36Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

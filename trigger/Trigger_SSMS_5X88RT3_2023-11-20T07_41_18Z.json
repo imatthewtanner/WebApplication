@@ -1,0 +1,36 @@
+{
+	"name": "Trigger_SSMS_5X88RT3_2023-11-20T07_41_18Z",
+	"properties": {
+		"description": "Created via SSMS scheduling feature.",
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Pipeline_SSMS_5X88RT3_2023-11-20T07_41_18Z",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Week",
+				"interval": 1,
+				"startTime": "2023-11-20T07:47:49Z",
+				"timeZone": "UTC",
+				"schedule": {
+					"minutes": [
+						0
+					],
+					"hours": [
+						0
+					],
+					"weekDays": [
+						"Sunday"
+					]
+				}
+			}
+		}
+	}
+}
